@@ -35,34 +35,34 @@
     "fs-extra": "^5.0.0",
     "glob": "^7.0.0",
     "globule": "^1.0.0",
-    "gonzales-pe": "4.2.4",
+    "gonzales-pe": "^4.3.0",
     "gray-matter": "^3.1.1",
     "js-yaml": "^3.13.1",
     "known-css-properties": "^0.5.0",
     "lodash.capitalize": "^4.1.0",
     "lodash.kebabcase": "^4.0.0",
     "lodash.map": "^4.6.0",
-    "lodash.template": "^4.4.0",
-    "merge": "^1.2.1",
+    "lodash.template": "^4.5.0",
+    "merge": "^2.1.1",
     "path-is-absolute": "^1.0.0",
     "text-table": "^0.2.0",
     "util": "^0.10.3"
   },
   "devDependencies": {
-    "@commitlint/cli": "^7.5.2",
+    "@commitlint/cli": "^17.0.1",
     "@commitlint/config-conventional": "^7.5.0",
-    "@semantic-release/git": "^7.0.8",
+    "@semantic-release/git": "^8.0.0",
     "chai": "^4.1.2",
-    "cheerio": "^1.0.0-rc.2",
+    "cheerio": "^1.0.0-rc.11",
     "coveralls": "^3.0.0",
     "deep-equal": "^1.0.1",
     "eslint": "^4.5.0",
     "husky": "^2.1.0",
     "istanbul": "^0.4.5",
     "lint-staged": "^8.1.5",
-    "mocha": "^5.2.0",
+    "mocha": "^7.1.2",
     "proxyquire": "^1.8.0",
-    "semantic-release": "^15.13.12",
+    "semantic-release": "^19.0.2",
     "sinon": "^4.1.2",
     "strip-ansi": "^4.0.0"
   },
@@ -75,7 +75,7 @@
       "git add"
     ]
   },
-  "husky": {
+  "huskyBak": {
     "hooks": {
       "pre-commit": "npm run pretest",
       "pre-push": "npm run preversion",
